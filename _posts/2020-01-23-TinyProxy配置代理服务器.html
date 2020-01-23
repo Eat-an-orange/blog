@@ -1,0 +1,62 @@
+---
+layout:     post
+title:      Ubuntu TinyProxy下配置代理服务器
+subtitle:   Ubuntu下 TinyProxy 配置代理服务器
+date:       2020-01-23
+author:     Rain
+header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - HTTP代理服务器
+---
+
+<h2>
+	1.安装
+</h2>>
+
+<p>sudo apt-get install tinyproxy</p>
+<h2>2. 修改配置文件</h2>
+<p>配置文件默认路径：/etc/tinyproxy/tinyproxy.conf
+
+可能需要先增加文件可读权限 sudo chmod 666 tinyproxy.conf
+
+vim /etc/tinyproxy.conf
+
+
+
+默认配置项Port 8888
+
+可修改访问端口：Port your_port</p>
+
+<h2>3.设置安全策略</h2>
+<p>配置文件 tinyproxy.conf 修改安全策略
+
+安全策略修改允许访问ip：可以添加 Allow your_IP， 默认配置Allow 127.0.0.1
+
+如果允许任何人访问则把 allow 注释或者删除掉
+
+测试，打开允许访问的主机的命令行窗口，执行</p>
+
+<h2>4.测试</h2>
+<p>sudo service tinyproxy restart
+curl -x proxyIp:proxyPort www.baidu.com
+
+看看是否返回百度首页html代码， 返回正常页面则OK</p>
+
+<h2>相关命令</h2>
+<p>
+	启动
+
+sudo service tinyproxy start
+重启
+
+sudo service tinyproxy restart
+停止
+
+sudo service tinyproxy stop
+
+查看日志文件 ，日志文件默认配置路径 /var/log/tinyproxy/tinyproxy.log
+</p>
+
+<i>Notice: 修改配置文件后需要重新启动。</i>
+
