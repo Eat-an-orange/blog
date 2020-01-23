@@ -6,7 +6,7 @@ email: 1282394054@qq.com
 description: "Every failure is leading towards success."
 keyword: "Rain, Rain Blog, Rain的博客, 小米"
 url: "http://wheredoyouwanttogo.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/wheredoyouwanttogo/blog.git" # you code repository
 
 # Sidebar settings
