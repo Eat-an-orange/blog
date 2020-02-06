@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Python Faker模块
-subtitle:   爬虫伪造数据
-date:       2020-02-05
+title:      Markdown语法
+subtitle:   工欲善其事，必先利其器。
+date:       2020-02-06
 author:     Rain
 header-img: img/post-bg-map.jpg
 catalog: true
