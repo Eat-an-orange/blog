@@ -19,10 +19,10 @@ sidebar-avatar: /blog/img/about-BY-gentle.jpg      # use absolute URL, seeing it
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+zhihu_username:     ting-shuo-hang-zhou-yi-ju
+github_username:    wheredoyouwanttogo
+# facebook_username:  baiying.qiu.7
+jianshu_username:   c06c780b1d00
 #twitter_username:   qiubaiying
 
 
@@ -74,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: 33353bf1c0c6d0ff57f093499af34120
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -104,5 +104,9 @@ friends: [
     },{
         title: "Xiaomi",
         href: "https://www.mi.com/us"
+    },
+    {
+        title: "Huawei",
+        href: "https://www.huawei.com/cn/"
     }
 ]
