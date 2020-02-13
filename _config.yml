@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 70fecd95c743379313f8                            #生成的clientID
-  clientSecret: 3b99dc17e6c5f4db9a3ac1226c5fa56d29d0f720    #生成的clientSecret
+  clientID: f2ef4447affc3639e487                            #生成的clientID
+  clientSecret: ddfa04f218efe6bb9f3ac2a5d01c9ad9acddb510    #生成的clientSecret
   repo: blog    #仓库名称
   owner: Eat-an-orange    #github用户名
   admin: Eat-an-orange
